@@ -1,0 +1,93 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4f4;
+}
+/* Global */
+ul{
+    margin:0;
+    padding:0;
+  }
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+    text-align: center;
+  }
+  .button{
+    height:38px;
+    background:#e8491d;
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+    border-radius: 5px;
+  }
+  .button a{
+    text-decoration: none;
+    color:#ffffff;
+  }
+  .button:hover{
+    background-color: green;
+  }
+  /* HEader */
+header{
+    background:rgb(160, 160, 160);
+    border-bottom: 3px solid rgba(223, 14, 42, 0.527);
+}
+header li{
+  float: left;
+  display: inline;
+  margin: 0;
+  padding: 40px;
+}
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+header #company{
+ margin: 0;
+ padding: 0 0;
+  float: left;
+}
+
+header nav{
+  float: right;
+}
+header a:hover{
+  color: rgba(255, 72, 0, 0.856);
+}
+
+/* showcase */
+#show{
+  min-height:600px;
+  background:url(../img/carspic.jpg) no-repeat 0 -300px;
+  text-align:center;
+  color:#ffffff;
+  background-size: 100%;
+  border-bottom: 5px solid royalblue;
+}
+
+/* products */
+#products .product{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+.product h3, button{
+  margin: 0;
+  padding: 0;;
+}
+
+/* footer */
+
+footer{
+  background-color:rgb(160, 160, 160) ;
+  text-align: center;
+  padding: 10px;
+  border-top:3px solid rgba(223, 14, 42, 0.527);
+}
