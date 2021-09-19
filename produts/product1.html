@@ -12,13 +12,13 @@
     <header>
         <div class="container">
             <div id="company">
-                <a href="index.html"><img src="../img/carlogo.png" alt="carlogo" height="100px" width="190px"></a>
+                <a href="../index.html"><img src="../img/carlogo.png" alt="carlogo" height="100px" width="190px"></a>
             </div>
             <nav>
                 <ul>
                     <li><a href="../index.html">Home</a></li>
-                    <li><a href="../about.html.html">About</a></li>
-                    <li><a href="../contact.html">Contact US</a></li>
+                    <li><a href="../about.html.html">About Me</a></li>
+                    <li><a href="../contact.html">Contact Me</a></li>
                 </ul>
             </nav>
         </div>
@@ -61,14 +61,14 @@
                 <hr>
             </div>
             <p><b>Post Your preview</b></p>
-            <form>
-                <input type="text" placeholder="Enter Your Name">
-                <input type="text" placeholder="Enter Your Review ">
-                <input type="email" placeholder="Enter Your Email">
+            <form method="post" action="../php/review.php">
+                <input type="text" name="fname" placeholder="Enter Your First Name">
+                <input type="text" name="lname" placeholder="Enter Your Last Name ">
+                <input type="email" name="email" placeholder="Enter Your Email">
                 <br><br>
-                <textarea rows="4" cols="50" name="comment" form="usrform" placeholder="Type Your message"></textarea>
+                <textarea rows="4" cols="50" name="message" form="usrform" placeholder="Type Your message"></textarea>
                 <br><br>
-                <button class="button"><a href="response.html" target="_blank">SUbmit</a></button>
+                <button class="button" name="btn"><a href="response.html" target="_blank">SUbmit</a></button>
             </form>
         </div>
     </section>

@@ -21,7 +21,7 @@ ul{
     border:0;
     padding-left: 20px;
     padding-right:20px;
-    border-radius: 5px;
+    border-radius: 10px;
   }
   .button a{
     text-decoration: none;
@@ -71,11 +71,17 @@ header a:hover{
 }
 
 /* products */
+
 #products .product{
   float:left;
   text-align: center;
-  width:30%;
-  padding:10px;
+  width:20%;
+  padding:20px;
+  border: 2px solid rgb(47, 255, 245);
+  border-radius: 20px;
+  margin: 2px 30px;
+  margin-bottom: 15px;
+  background-color: rgba(224, 223, 223, 0.904);
 }
 
 .product h3, button{
